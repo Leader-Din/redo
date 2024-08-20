@@ -1,0 +1,56 @@
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+table, td, th {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+    font-family: sans-serif;
+}
+th {
+    background-color: crimson;
+    transition: .5s;
+    cursor: pointer;
+}
+th:hover {
+    background-color: aqua;
+    color: #000;
+}
+td {
+    background-color: tomato;
+    transition: .5s;
+    height: 15vh;
+    cursor: pointer;
+}
+td:hover {
+    background-color: lightslategray;
+    color: #000;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    text-align: center;
+}
